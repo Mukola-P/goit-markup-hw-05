@@ -187,17 +187,19 @@ img {
 content:"";
 width: 100%;
 height: 4px;
+position: absolute;
 
 background: #2196F3;
 border-radius: 2px;
 display: block;
-margin-top: 28px;
-margin-bottom: -34px;
+bottom: -1px;
 
 }
 
+
 .current {
   color: var(--secondary-color);
+  position: relative;
 }
 
 .mail-link,
